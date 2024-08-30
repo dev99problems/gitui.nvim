@@ -13,6 +13,8 @@ instead of re-creating it every time **from scratch** (this let's preserve gitui
 Because of it, all previosly selected items in different tabs, collapsed/expanded folders, searches, etc.
 keep their state. 
 
+https://github.com/user-attachments/assets/12a76daf-35de-4b11-9ed8-4c78aeada8d5
+
 ## Prerequisites
 
 - Neovim >= 0.5.0
