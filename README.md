@@ -4,7 +4,7 @@
 
 ## How it's different from the original?
 
-Original [aspeddro/gitui.nvim](https://github.com/aspeddro/gitui.nvim) plugin had `.open()` method which would open `gitui` interface as terminal window, but would not provide a simple way to toggle it's visibility and switch between nvim and `gitui` back & force.
+Original [aspeddro/gitui.nvim](https://github.com/aspeddro/gitui.nvim) plugin had `.open()` method which would open `gitui` interface as terminal window, but would not provide a simple way to toggle it's visibility and switch between nvim and `gitui` back & forth.
 
 This implementation **deprecates** `.open()` method and **replaces** it with `.toggle()`
 which hides current `gitui` window and reuses created buffer between invocations, 
